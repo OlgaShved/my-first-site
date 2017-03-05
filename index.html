@@ -1,0 +1,149 @@
+<!DOCTYPE html><!-- отвечает за тип документа, что этот файл является штмл. ОДИНОЧНЫЙ -->
+<html><!-- тег верхнего уровня на одном уровне с доктайп, ПАРНЫЙ -->
+
+	<head><!-- описывает свойства док-та, знчения, которые не видны + подкл стилей, ключ слова... Чтоб поисковики считывали инфу о док. -->
+		<meta charset="utf-8"><!-- кодировка -->
+
+		<title>Мой сайт</title><!-- заголовок вкладки страницы -->
+
+		<link rel="shortcut icon" href="img/favicon.png">
+
+		<meta name="keywords" content="список ключевых слов для поисковых систем">
+
+		<meta name="description" content="описание сайта обычно одно или пару предложений">
+
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+
+	<body><!-- внутри него теги тела документа, часть, видимая в браузере -->
+
+		<header> <id="type">
+			<a href="mailto:info@mail.com"><img src="img/logo.png" alt="logo"></a><!-- ссылка - строчный тег, чтоб указжать, что ссылается на определенный ресурс -используем АТРИБУТ href="#(если ставим,добавляется в ссылку верхнюю и открывается подкаталог сайта)" ЭТО ЛОГОТИП -->
+			<nav>
+				<ol><!-- нумерованный список, открывающий тег, отвечает за сам элемент списка -->
+					<li><a href="https://vk.com/olga.shved">адрес ссылки в списке</a></li>
+					<li>маркированный список (item)</li>
+					<li>... количество пунктов</li><!-- отвечает за пункты конкретного списка -->
+				</ol><!-- нумерованный список, закрывающий тег -->
+			</nav><!-- навигация -->
+			<a href="adres ssylki" title="Описание того на что указывает ссылка" target="_blank"></a> <!-- target="_blank" указывает на то что данная ссылка откроеться в новой вскладке брвузера  -->
+		</header><!-- основные элементы - логотип с навигацией -->
+
+		<section>
+		</section><!-- разделить основной контент на несколько смысловых блоков -->
+
+		<main><!-- основная информация, важный контент -->
+			<article>
+				<h2>
+				<a href="#">адрес ссылки в заголовке</a>
+				</h2>
+			</article>
+			<!--table>thead>tr>th{$}*5^^tbody>tr*5>td{item$}*5-->
+			<table>
+				<thead>
+					<tr>
+						<th>1</th>
+						<th>2</th>
+						<th>3</th>
+						<th>4</th>
+						<th>5</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>item1item1item1item1item1item2&nbsp;item1item3<br/>item1</td>
+						<td>item2</td>
+						<td>item3</td>
+						<td>item4</td>
+						<td>item5</td>
+					</tr>
+					<tr>
+						<td>item1</td>
+						<td>item2</td>
+						<td>item3</td>
+						<td>item4</td>
+						<td>item5</td>
+					</tr>
+					<tr>
+						<td>item1</td>
+						<td>item2</td>
+						<td>item3</td>
+						<td>item4</td>
+						<td>item5</td>
+					</tr>
+					<tr>
+						<td>item1</td>
+						<td>item2</td>
+						<td>item3</td>
+						<td>item4</td>
+						<td>item5</td>
+					</tr>
+					<tr>
+						<td>item1</td>
+						<td>item2</td>
+						<td>item3</td>
+						<td>item4</td>
+						<td>item5</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<div class="display-table">
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor i</span>
+			</div>
+
+
+
+				<ul>
+					<li><h1>Name1</h1></li>
+					<li><h2>Name2</h2></li>
+					<li><h3>Name3</h3></li>
+					<li><h4>Name4</h4></li>
+					<li><h5>Name5</h5></li>
+					<li><h6>Name6</h6></li>
+				</ul><!-- маркированный список -->
+
+		</main>
+
+		<aside>
+			<hr/><!-- вывод горизонтальной линии через весь экран -->
+			<img src="img/photo1.png" alt="если невозможно отобразить photo1">
+			<br/> <!-- перенос на новую строку, как Enter, не имеет своего контента -->
+			<img src="img/laptop.jpg" alt="laptop"><!-- (одинарный тег) Атрибуты: 1 - какое изображение будет показываться, путь к картинке абсолютный или относительный 2 - текстовое описание, что находится в этой картинке (для поисковых систем и случаев, когда отключено отображение в браузере) -->
+
+			<h1>заголовок 1 уровня</h1>
+			<p>
+				Обычный текст<br/>
+				<em>Курсив текст</em><!-- (прописной, наклонный) --><br/>
+				<sub>Нижний индекс </sub> Текста<!-- (утопленный) --><br/>
+				<s>Зачеркнутый текст</s><br/>
+				<sup>верхний индекс</sup> Текста<!-- (приподнятый) --><br/>
+				<strong>жирный текст</strong><br/>
+				<u>Подчёркнутый текст</u><!-- (НЕРЕКОМЕНДУЕМЫЙ) -->
+			</p>
+
+			<h2>заголовок 2 уровня</h2>
+			<p><!-- параграф (как абзац текста) -->
+				HTML - структура, основа каждой страницы и веб-сайта. Язык гипертекстовой разметки<br/>
+				CSS - стили и офомление (цвет, размер, расстояние)<br/>
+				JS - интерактивность, набор функций, все действия пользователя на сайте<br/>
+				Теги (красные) - это тот синтаксис, с помощью которого записываем html элементы.<br/>
+				Строчные - жирный, зачёркнутый... - выделяют часть текста, принося ему определённое (н-р, визуальное) свойство. Занимают размер только своего контента и устраиваются друг за другом. Можем размещать внутри других.<br/>
+				Блочные - параграфы, заголовки, дивы, списки - занимают всю ширину видимой части браузера. Все элементы после них переносятся на следующую строку.<br/>
+				Атрибуты (салатовые) - есть индивидуальные для одного (href) или общие для всех тегов - классы (стилизирование элементов), индификаторы (выделение конкретных элементов среди других и навигции по документу).
+			</p>
+		</aside><!-- дополнительная информация, менее важный контент -->
+
+		<footer>
+			<p>Copyright &copy; Все права защищены</p>
+		</footer><!-- копирайт или ссылки на соцсети -->
+
+	</body>
+</html>
